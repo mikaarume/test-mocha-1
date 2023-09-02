@@ -1,0 +1,14 @@
+const chai = require('chai');
+const expect = chai.expect;
+
+describe('Contoh Tes', () => {
+    it('Tes Penambahan', () => {
+        const hasil = 2 + 2;
+        expect(hasil).to.equal(4);
+    });
+
+    it('Tes Pengurangan', () => {
+        const hasil = 5 - 3;
+        expect(hasil).to.equal(2);
+    });
+});
